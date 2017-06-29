@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ShowDoMilhaoActivity!</string>
+    <string name="app_name">ShowDoMilhao</string>
+    <string name="spiner">Escolha um User</string>
+    <string name="btn_facebook">Compartilhar no Facebook</string>
+    <string name="btn_jogarNovamente">Jogar Novamente</string>
+    <string name="lbl_msgFinal">Parabéns você acertou :</string>
+
+</resources>

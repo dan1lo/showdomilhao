@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/btn_novojogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo jogo" />
+
+    <Button
+        android:id="@+id/btn_opcao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opções" />
+
+    <Button
+        android:id="@+id/btn_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rank" />
+
+    <Button
+        android:id="@+id/btn_sobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre" />
+
+</LinearLayout>

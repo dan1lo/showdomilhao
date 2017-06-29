@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="show.milhao"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+    <permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES"></permission>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".ShowDoMilhaoActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                       <activity android:name=".PrincipalActivity"></activity>
+            </intent-filter>
+        </activity>
+ 	<activity
+            android:name=".PrincipalActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="PrincipalActivity"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="Principal"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NovoJogoActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="NovoJogoActivity"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="NovoJogo"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OpcoesActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="OpcoesActivity"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="Opcoes"/>
+            </intent-filter>
+        </activity>
+                <activity
+            android:name=".PerguntaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="PerguntaActivity"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="Pergunta"/>
+            </intent-filter>
+                    </activity>
+                <activity
+            android:name=".RankActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="RankActivity"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="Rank"/>
+            </intent-filter>
+        </activity>
+                        <activity
+            android:name=".SobreActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="SobreActivity"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="Sobre"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CadastroUserActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="CadastroUserActivity"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="CadastroUser"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FinalJogoActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="FinalJogoActivity"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="FinalJogo"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
